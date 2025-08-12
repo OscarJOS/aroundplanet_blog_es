@@ -9,21 +9,22 @@ function RegionalOverview({ selectedCloud, selectedLanguage, regionData, avgData
   }
 
   const getCloudImage = (cloud) => {
+    const base = import.meta.env.BASE_URL;
     const cloudImages = {
-      'aws': '/images/cloud/aws_logo.png',
-      'azure': '/images/cloud/azure_logo.png', 
-      'gcp': '/images/cloud/gcp_logo.png'
+      'aws': `${base}images/cloud/aws_logo.png`,
+      'azure': `${base}images/cloud/azure_logo.png`,
+      'gcp': `${base}images/cloud/gcp_logo.png`
     }
-    return cloudImages[cloud] || ''
+    return cloudImages[cloud] || '';
   }
 
   const getLanguageImage = (language) => {
     const langImages = {
-      'go': '/images/lang/golang.png',
-      'java': '/images/lang/java.png',
-      'node': '/images/lang/node.png',
-      'py': '/images/lang/python.png',
-      'python': '/images/lang/python.png'
+      'go': `${import.meta.env.BASE_URL}images/lang/golang.png`,
+      'java': `${import.meta.env.BASE_URL}images/lang/java.png`,
+      'node': `${import.meta.env.BASE_URL}images/lang/node.png`,
+      'py': `${import.meta.env.BASE_URL}images/lang/python.png`,
+      'python': `${import.meta.env.BASE_URL}images/lang/python.png`
     }
     return langImages[language] || ''
   }
