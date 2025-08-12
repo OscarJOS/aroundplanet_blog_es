@@ -16,22 +16,22 @@ function App() {
   const [regionData, setRegionData] = useState([])
 
   useEffect(() => {
-  fetch(`${process.env.PUBLIC_URL}/data/avg_total.json`)
-    .then(res => res.json())
-    .then(data => setAvgData(data))
+    fetch(`${process.env.PUBLIC_URL}/data/avg_total.json`)
+      .then(res => res.json())
+      .then(data => setAvgData(data))
 
-  fetch(`${process.env.PUBLIC_URL}/data/top3.json`)
-    .then(res => res.json())
-    .then(data => setTop3Data(data.data))
+    fetch(`${process.env.PUBLIC_URL}/data/top3.json`)
+      .then(res => res.json())
+      .then(data => setTop3Data(data.data))
 
-  fetch(`${process.env.PUBLIC_URL}/data/last3.json`)
-    .then(res => res.json())
-    .then(data => setLast3Data(data.data))
+    fetch(`${process.env.PUBLIC_URL}/data/last3.json`)
+      .then(res => res.json())
+      .then(data => setLast3Data(data.data))
 
-  fetch(`${process.env.PUBLIC_URL}/data/region.json`)
-    .then(res => res.json())
-    .then(data => setRegionData(data.data))
-}, [])
+    fetch(`${process.env.PUBLIC_URL}/data/region.json`)
+      .then(res => res.json())
+      .then(data => setRegionData(data.data))
+  }, [])
 
   return (
     <div className="min-h-screen flex flex-col">

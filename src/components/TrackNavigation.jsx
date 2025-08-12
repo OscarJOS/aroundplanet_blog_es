@@ -1,16 +1,16 @@
 function TrackNavigation({ selectedCloud, setSelectedCloud, selectedLanguage, setSelectedLanguage }) {
 
   const clouds = [
-    { id: 'aws', name: 'AWS', image: '/images/cloud/aws_logo.png' },
-    { id: 'azure', name: 'Azure', image: '/images/cloud/azure_logo.png' },
-    { id: 'gcp', name: 'GCP', image: '/images/cloud/gcp_logo.png' }
+    { id: 'aws', name: 'AWS', image: 'images/cloud/aws_logo.png' },
+    { id: 'azure', name: 'Azure', image: 'images/cloud/azure_logo.png' },
+    { id: 'gcp', name: 'GCP', image: 'images/cloud/gcp_logo.png' }
   ]
 
   const languages = [
-    { id: 'go', name: 'Go', image: '/images/lang/golang.png' },
-    { id: 'java', name: 'Java', image: '/images/lang/java.png' },
-    { id: 'node', name: 'Node', image: '/images/lang/node.png' },
-    { id: 'py', name: 'Python', image: '/images/lang/python.png' }
+    { id: 'go', name: 'Go', image: 'images/lang/golang.png' },
+    { id: 'java', name: 'Java', image: 'images/lang/java.png' },
+    { id: 'node', name: 'Node', image: 'images/lang/node.png' },
+    { id: 'py', name: 'Python', image: 'images/lang/python.png' }
   ]
 
   return (

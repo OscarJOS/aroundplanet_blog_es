@@ -20,8 +20,8 @@ function RegionalOverview({ selectedCloud, selectedLanguage, regionData, avgData
 
   const getLanguageImage = (language) => {
     const langImages = {
-      'go': `${import.meta.env.BASE_URL}images/lang/golang.png`,
-      'java': `${import.meta.env.BASE_URL}images/lang/java.png`,
+      'go': `${process.env.PUBLIC_URL}/images/lang/golang.png`,
+      'java': `${process.env.PUBLIC_URL}/images/lang/java.png`,
       'node': `${import.meta.env.BASE_URL}images/lang/node.png`,
       'py': `${import.meta.env.BASE_URL}images/lang/python.png`,
       'python': `${import.meta.env.BASE_URL}images/lang/python.png`
