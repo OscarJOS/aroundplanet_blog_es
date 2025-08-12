@@ -49,7 +49,7 @@ function TrackNavigation({ selectedCloud, setSelectedCloud, selectedLanguage, se
               }}
             >
               <img 
-                src={cloud.image} 
+                src={`${import.meta.env.BASE_URL}${cloud.image}`}
                 alt={cloud.name}
                 className="w-12 h-12 md:w-10 md:h-10"
                 style={{width: '2.5rem', height: '2.5rem'}}
@@ -97,7 +97,7 @@ function TrackNavigation({ selectedCloud, setSelectedCloud, selectedLanguage, se
               }}
             >
               <img 
-                src={language.image} 
+                src={`${import.meta.env.BASE_URL}${language.image}`}
                 alt={language.name}
                 className="w-12 h-12 md:w-10 md:h-10"
                 style={{width: '2.5rem', height: '2.5rem'}}
