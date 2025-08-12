@@ -1,0 +1,885 @@
+{
+  "metadata": {
+    "title": "Enriched TOP3 - Top 3 Fastest Execution Times with Regional Breakdown",
+    "description": "The 3 fastest execution times for each language/cloud combination, enriched with regional duration data",
+    "total_records": 36,
+    "languages": [
+      "go",
+      "java",
+      "node",
+      "python"
+    ],
+    "clouds": [
+      "aws",
+      "azure",
+      "gcp"
+    ],
+    "generated_at": "2025-07-29T00:00:00.000Z"
+  },
+  "data": [
+    {
+      "position": 1,
+      "uuid": "c48a93a0-4d42-4e54-96f2-0f38da86e881",
+      "total_time_microseconds": 358148,
+      "cloud": "aws",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 107071
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 165855
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 85222
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "8d1dda8f-6b9d-4ccd-b93b-0d9a47a47efd",
+      "total_time_microseconds": 358878,
+      "cloud": "aws",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 121456
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 153981
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 83441
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "1d785cf4-f7aa-4c68-a2cc-bdd6e88e4621",
+      "total_time_microseconds": 360950,
+      "cloud": "aws",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 122897
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 154017
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 84036
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "9dc182f5-7383-498e-b3fa-6c1fe0c478a7",
+      "total_time_microseconds": 1248875,
+      "cloud": "aws",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 245000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 582000
+        },
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 422000
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "daf38213-3f09-49a6-a186-1b1b15fff598",
+      "total_time_microseconds": 1250747,
+      "cloud": "aws",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 250000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 582000
+        },
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 418000
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "d0969a30-34ec-4b80-bd9f-9436a8537939",
+      "total_time_microseconds": 1250990,
+      "cloud": "aws",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 246000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 594000
+        },
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 411000
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "486bb0cc-6a77-408f-9141-086aece84ce8",
+      "total_time_microseconds": 1242000,
+      "cloud": "aws",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 239000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 583000
+        },
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 420000
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "bf755203-6221-4f1b-a742-dead918ca0d9",
+      "total_time_microseconds": 1246000,
+      "cloud": "aws",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 245000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 583000
+        },
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 418000
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "4d44d822-a03c-43c1-96f9-15e7831881af",
+      "total_time_microseconds": 1248000,
+      "cloud": "aws",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 241000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 585000
+        },
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 422000
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "705c68bb-e5b8-4c36-9138-a5d6ce2762b0",
+      "total_time_microseconds": 2085974,
+      "cloud": "aws",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 792149
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 792244
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 501581
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "5f07da42-9a81-4c1c-a7af-3a12bf3f5dd2",
+      "total_time_microseconds": 2102219,
+      "cloud": "aws",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 866715
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 850241
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 385263
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "0fdc3493-1cd2-4361-a671-d6cc6d8511c6",
+      "total_time_microseconds": 2108549,
+      "cloud": "aws",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end",
+          "duration_microseconds": 680427
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 808166
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 619956
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "26e09f03-9f8f-4fcd-8cba-f3f83f0ae994",
+      "total_time_microseconds": 3308653,
+      "cloud": "azure",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 1608154
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1296470
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 404029
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "a7fd0bc1-c650-4794-9c2a-0dc791e9b71c",
+      "total_time_microseconds": 3315926,
+      "cloud": "azure",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 1639474
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1277875
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 398577
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "df5a9fc4-c474-4e94-929c-9cc7ce729860",
+      "total_time_microseconds": 3316586,
+      "cloud": "azure",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 1648274
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1279912
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 388400
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "c83c75c7-356c-483a-ab5b-7b4bc1bf4a7d",
+      "total_time_microseconds": 2765026,
+      "cloud": "azure",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 1738847
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 885995
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 140184
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "af329354-64de-4e4d-b92b-cd99d354af4d",
+      "total_time_microseconds": 2813444,
+      "cloud": "azure",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 1763260
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 897350
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 152834
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "7a0ca957-bef6-4df6-a8a8-0628833fc240",
+      "total_time_microseconds": 2836579,
+      "cloud": "azure",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 1737544
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 907383
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 191652
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "2c8a689b-e34d-49d6-856e-f6ee555807d2",
+      "total_time_microseconds": 1548000,
+      "cloud": "azure",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 924000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 490000
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 134000
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "3fe495f2-e59f-467b-a0f6-17a2e886cf7c",
+      "total_time_microseconds": 1552000,
+      "cloud": "azure",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 930000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 515000
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 107000
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "18ed0de8-2b11-418a-9e83-b8aa29057ca5",
+      "total_time_microseconds": 1587000,
+      "cloud": "azure",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 926000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 532000
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 129000
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "8da3b79d-8b33-4846-9583-2d3e449aff28",
+      "total_time_microseconds": 4010920,
+      "cloud": "azure",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 2110793
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1499123
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 401004
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "f266cecf-5174-4162-9d04-61d9a49759b4",
+      "total_time_microseconds": 4016593,
+      "cloud": "azure",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 2105764
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1496845
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 413984
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "4750ef98-b2f0-428d-9c8d-a17a32094db0",
+      "total_time_microseconds": 4021071,
+      "cloud": "azure",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-2-end-iA",
+          "duration_microseconds": 2126565
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1492043
+        },
+        {
+          "source_region": "us-east-2-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 402463
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "049f869c-e91b-4512-b851-6daea95ee7e7",
+      "total_time_microseconds": 1832649,
+      "cloud": "gcp",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 569488
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 630354
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 632807
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "95a81650-9329-424c-af7d-3fe46e1e8519",
+      "total_time_microseconds": 1956548,
+      "cloud": "gcp",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 602609
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 710012
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 643927
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "ebd25e49-39cb-4cc0-9e33-e0849910cec9",
+      "total_time_microseconds": 3443832,
+      "cloud": "gcp",
+      "language": "go",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 1657849
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1704316
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 81667
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "4bed7e3a-3677-4361-a408-a0bf84951db3",
+      "total_time_microseconds": 5056253,
+      "cloud": "gcp",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 2448885
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 2474325
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 133043
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "5980f92d-cb1b-4217-93c0-1cd994ed2800",
+      "total_time_microseconds": 5080080,
+      "cloud": "gcp",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 3227665
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1706705
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 145710
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "1cc8dcda-ad43-4e69-afee-068032a0309c",
+      "total_time_microseconds": 5120195,
+      "cloud": "gcp",
+      "language": "java",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 2855076
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 2106959
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 158160
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "bcea20fc-69d4-46b8-ba62-c6d4a3a7d2b1",
+      "total_time_microseconds": 3687000,
+      "cloud": "gcp",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 1425000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1283000
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 979000
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "a0717d9b-ca56-4492-9501-2dea7e2bdd35",
+      "total_time_microseconds": 3852000,
+      "cloud": "gcp",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 2269000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1468000
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 115000
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "b97f38fe-f1b7-4ac9-be29-456b0adb8f0a",
+      "total_time_microseconds": 4246000,
+      "cloud": "gcp",
+      "language": "node",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 2698000
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1453000
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 95000
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "uuid": "2ae80147-bad2-4bce-8886-dffe29e4d859",
+      "total_time_microseconds": 5653611,
+      "cloud": "gcp",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 1790875
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 1996701
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 1866035
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "uuid": "3eb683fe-d20a-4320-8ae2-e8c6b3a599c5",
+      "total_time_microseconds": 6088762,
+      "cloud": "gcp",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 2997091
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 2107339
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 984332
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "uuid": "2b23b134-8243-4da4-bfc9-61c72ba94b91",
+      "total_time_microseconds": 6207082,
+      "cloud": "gcp",
+      "language": "python",
+      "region_durations": [
+        {
+          "source_region": "ap-northeast-1-node-iA",
+          "target_region": "us-east-1-end-iA",
+          "duration_microseconds": 2976587
+        },
+        {
+          "source_region": "eu-west-2-node-iA",
+          "target_region": "ap-northeast-1-node-iA",
+          "duration_microseconds": 2095643
+        },
+        {
+          "source_region": "us-east-1-start-iA",
+          "target_region": "eu-west-2-node-iA",
+          "duration_microseconds": 1134852
+        }
+      ]
+    }
+  ]
+}

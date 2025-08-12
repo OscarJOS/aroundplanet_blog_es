@@ -1,0 +1,98 @@
+[
+  {
+    "language": "go",
+    "cloud": "aws",
+    "track_count": 16205,
+    "avg_time_microseconds": 486879,
+    "min_time_microseconds": 358148,
+    "max_time_microseconds": 6894433
+  },
+  {
+    "language": "java",
+    "cloud": "aws",
+    "track_count": 16780,
+    "avg_time_microseconds": 1542324,
+    "min_time_microseconds": 1248875,
+    "max_time_microseconds": 60187548
+  },
+  {
+    "language": "node",
+    "cloud": "aws",
+    "track_count": 16230,
+    "avg_time_microseconds": 1387163,
+    "min_time_microseconds": 1242000,
+    "max_time_microseconds": 136404000
+  },
+  {
+    "language": "py",
+    "cloud": "aws",
+    "track_count": 47739,
+    "avg_time_microseconds": 2585180,
+    "min_time_microseconds": 2085974,
+    "max_time_microseconds": 40927464
+  },
+  {
+    "language": "go",
+    "cloud": "azure",
+    "track_count": 1344,
+    "avg_time_microseconds": 3443502,
+    "min_time_microseconds": 3308653,
+    "max_time_microseconds": 5612678
+  },
+  {
+    "language": "java",
+    "cloud": "azure",
+    "track_count": 13125,
+    "avg_time_microseconds": 3037906,
+    "min_time_microseconds": 2765026,
+    "max_time_microseconds": 18707592
+  },
+  {
+    "language": "node",
+    "cloud": "azure",
+    "track_count": 13124,
+    "avg_time_microseconds": 3236436,
+    "min_time_microseconds": 1548000,
+    "max_time_microseconds": 28825000
+  },
+  {
+    "language": "py",
+    "cloud": "azure",
+    "track_count": 13121,
+    "avg_time_microseconds": 4224969,
+    "min_time_microseconds": 4010920,
+    "max_time_microseconds": 13566903
+  },
+  {
+    "language": "go",
+    "cloud": "gcp",
+    "track_count": 13088,
+    "avg_time_microseconds": 5581701,
+    "min_time_microseconds": 1832649,
+    "max_time_microseconds": 10196104
+  },
+  {
+    "language": "java",
+    "cloud": "gcp",
+    "track_count": 13089,
+    "avg_time_microseconds": 8284106,
+    "min_time_microseconds": 5056253,
+    "max_time_microseconds": 16719583
+  },
+  {
+    "language": "node",
+    "cloud": "gcp",
+    "track_count": 13090,
+    "avg_time_microseconds": 7375635,
+    "min_time_microseconds": 3687000,
+    "max_time_microseconds": 22889000
+  },
+  {
+    "language": "py",
+    "cloud": "gcp",
+    "track_count": 13095,
+    "avg_time_microseconds": 9018111,
+    "min_time_microseconds": 5653611,
+    "max_time_microseconds": 135298615
+  }
+]

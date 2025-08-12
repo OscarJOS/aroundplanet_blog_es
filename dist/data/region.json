@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "title": "Regional Latency Data",
+    "description": "Network latency measurements between different geographic regions",
+    "total_records": 36,
+    "languages": [
+      "go",
+      "java",
+      "node",
+      "python"
+    ],
+    "clouds": [
+      "aws",
+      "azure",
+      "gcp"
+    ],
+    "regions": [
+      "ap-northeast-1",
+      "eu-west-2",
+      "us-east-1",
+      "us-east-2"
+    ],
+    "generated_at": "2025-07-28T02:04:41.393Z"
+  },
+  "data": [
+    {
+      "language": "go",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end",
+      "avg_time_microseconds": 170095,
+      "min_time_microseconds": 107071,
+      "max_time_microseconds": 3325057,
+      "cloud": "aws"
+    },
+    {
+      "language": "go",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 204277,
+      "min_time_microseconds": 149272,
+      "max_time_microseconds": 2523680,
+      "cloud": "aws"
+    },
+    {
+      "language": "go",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 112507,
+      "min_time_microseconds": 70430,
+      "max_time_microseconds": 2182343,
+      "cloud": "aws"
+    },
+    {
+      "language": "java",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end",
+      "avg_time_microseconds": 520083,
+      "min_time_microseconds": 398257,
+      "max_time_microseconds": 9655823,
+      "cloud": "aws"
+    },
+    {
+      "language": "java",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 689964,
+      "min_time_microseconds": 577205,
+      "max_time_microseconds": 59485328,
+      "cloud": "aws"
+    },
+    {
+      "language": "java",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 332780,
+      "min_time_microseconds": 236047,
+      "max_time_microseconds": 9082734,
+      "cloud": "aws"
+    },
+    {
+      "language": "node",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end",
+      "avg_time_microseconds": 470035,
+      "min_time_microseconds": 402000,
+      "max_time_microseconds": 4725000,
+      "cloud": "aws"
+    },
+    {
+      "language": "node",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 636461,
+      "min_time_microseconds": 571000,
+      "max_time_microseconds": 135624000,
+      "cloud": "aws"
+    },
+    {
+      "language": "node",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 280817,
+      "min_time_microseconds": 235000,
+      "max_time_microseconds": 3710354,
+      "cloud": "aws"
+    },
+    {
+      "language": "python",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end",
+      "avg_time_microseconds": 880582,
+      "min_time_microseconds": 613128,
+      "max_time_microseconds": 39239854,
+      "cloud": "aws"
+    },
+    {
+      "language": "python",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 1007848,
+      "min_time_microseconds": 740381,
+      "max_time_microseconds": 4529905,
+      "cloud": "aws"
+    },
+    {
+      "language": "python",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 696750,
+      "min_time_microseconds": 349957,
+      "max_time_microseconds": 3736948,
+      "cloud": "aws"
+    },
+    {
+      "language": "go",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-2-end-iA",
+      "avg_time_microseconds": 1698428,
+      "min_time_microseconds": 1608154,
+      "max_time_microseconds": 2426781,
+      "cloud": "azure"
+    },
+    {
+      "language": "go",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 1314823,
+      "min_time_microseconds": 1262442,
+      "max_time_microseconds": 2308246,
+      "cloud": "azure"
+    },
+    {
+      "language": "go",
+      "source_region": "us-east-2-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 430251,
+      "min_time_microseconds": 368076,
+      "max_time_microseconds": 2385445,
+      "cloud": "azure"
+    },
+    {
+      "language": "java",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-2-end-iA",
+      "avg_time_microseconds": 1862199,
+      "min_time_microseconds": 1721757,
+      "max_time_microseconds": 4878802,
+      "cloud": "azure"
+    },
+    {
+      "language": "java",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 953986,
+      "min_time_microseconds": 869558,
+      "max_time_microseconds": 9584984,
+      "cloud": "azure"
+    },
+    {
+      "language": "java",
+      "source_region": "us-east-2-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 221721,
+      "min_time_microseconds": 139599,
+      "max_time_microseconds": 14874660,
+      "cloud": "azure"
+    },
+    {
+      "language": "node",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-2-end-iA",
+      "avg_time_microseconds": 1528660,
+      "min_time_microseconds": 924000,
+      "max_time_microseconds": 17102000,
+      "cloud": "azure"
+    },
+    {
+      "language": "node",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 1255930,
+      "min_time_microseconds": 490000,
+      "max_time_microseconds": 17165000,
+      "cloud": "azure"
+    },
+    {
+      "language": "node",
+      "source_region": "us-east-2-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 451846,
+      "min_time_microseconds": 107000,
+      "max_time_microseconds": 26002000,
+      "cloud": "azure"
+    },
+    {
+      "language": "python",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-2-end-iA",
+      "avg_time_microseconds": 2213980,
+      "min_time_microseconds": 2087622,
+      "max_time_microseconds": 7214333,
+      "cloud": "azure"
+    },
+    {
+      "language": "python",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 1564120,
+      "min_time_microseconds": 1485317,
+      "max_time_microseconds": 10952668,
+      "cloud": "azure"
+    },
+    {
+      "language": "python",
+      "source_region": "us-east-2-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 446868,
+      "min_time_microseconds": 376024,
+      "max_time_microseconds": 5465062,
+      "cloud": "azure"
+    },
+    {
+      "language": "go",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end-iA",
+      "avg_time_microseconds": 2896099,
+      "min_time_microseconds": 569488,
+      "max_time_microseconds": 5817220,
+      "cloud": "gcp"
+    },
+    {
+      "language": "go",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 2557102,
+      "min_time_microseconds": 630354,
+      "max_time_microseconds": 4537656,
+      "cloud": "gcp"
+    },
+    {
+      "language": "go",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 128499,
+      "min_time_microseconds": 62523,
+      "max_time_microseconds": 3535789,
+      "cloud": "gcp"
+    },
+    {
+      "language": "java",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end-iA",
+      "avg_time_microseconds": 3768453,
+      "min_time_microseconds": 2448885,
+      "max_time_microseconds": 6829421,
+      "cloud": "gcp"
+    },
+    {
+      "language": "java",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 3091598,
+      "min_time_microseconds": 1143633,
+      "max_time_microseconds": 6110409,
+      "cloud": "gcp"
+    },
+    {
+      "language": "java",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 1424054,
+      "min_time_microseconds": 86602,
+      "max_time_microseconds": 4639748,
+      "cloud": "gcp"
+    },
+    {
+      "language": "node",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end-iA",
+      "avg_time_microseconds": 2996725,
+      "min_time_microseconds": 1425000,
+      "max_time_microseconds": 16264000,
+      "cloud": "gcp"
+    },
+    {
+      "language": "node",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 2702448,
+      "min_time_microseconds": 750000,
+      "max_time_microseconds": 18682000,
+      "cloud": "gcp"
+    },
+    {
+      "language": "node",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 1676462,
+      "min_time_microseconds": 71000,
+      "max_time_microseconds": 4722000,
+      "cloud": "gcp"
+    },
+    {
+      "language": "python",
+      "source_region": "ap-northeast-1-node-iA",
+      "target_region": "us-east-1-end-iA",
+      "avg_time_microseconds": 3764388,
+      "min_time_microseconds": 1790875,
+      "max_time_microseconds": 6841748,
+      "cloud": "gcp"
+    },
+    {
+      "language": "python",
+      "source_region": "eu-west-2-node-iA",
+      "target_region": "ap-northeast-1-node-iA",
+      "avg_time_microseconds": 3103771,
+      "min_time_microseconds": 1698269,
+      "max_time_microseconds": 130025761,
+      "cloud": "gcp"
+    },
+    {
+      "language": "python",
+      "source_region": "us-east-1-start-iA",
+      "target_region": "eu-west-2-node-iA",
+      "avg_time_microseconds": 2149952,
+      "min_time_microseconds": 111167,
+      "max_time_microseconds": 4351137,
+      "cloud": "gcp"
+    }
+  ]
+}
