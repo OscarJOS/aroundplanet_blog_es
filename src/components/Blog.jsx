@@ -6,172 +6,172 @@ function Blog() {
   const blogPosts = [
     {
       id: 1,
-      title: "How is this possible?",
-      summary: "Discover how Around Planet measures execution times across multiple cloud providers and programming languages with microsecond precision, providing insights into performance characteristics and infrastructure optimization.",
-      date: "July 28, 2025",
+      title: "¿Cómo es esto posible?",
+      summary: "Descubre cómo Around Planet mide tiempos de ejecución a través de múltiples proveedores de nube y lenguajes de programación con precisión de microsegundos, proporcionando información sobre características de rendimiento y optimización de infraestructura.",
+      date: "28 de Julio, 2025",
       content: `
-        Around Planet measures execution times across AWS, Azure, and GCP by running code in three regions: N. Virginia, London, and Tokyo. Each execution follows the same path around the world, creating consistent performance data.
+        Around Planet mide tiempos de ejecución a través de AWS, Azure y GCP ejecutando código en tres regiones: N. Virginia, Londres y Tokio. Cada ejecución sigue el mismo camino alrededor del mundo, creando datos de rendimiento consistentes.
         
-        **🌐 How It Works**
+        **🌐 Cómo Funciona**
         
-        The system runs on three major cloud providers:
+        El sistema funciona en tres proveedores principales de nube:
         
-        • **AWS** - N. Virginia, London, Tokyo regions
-        • **Azure** - Corresponding regions with matching configurations  
-        • **GCP** - Same regional setup for fair comparison
+        • **AWS** - Regiones de N. Virginia, Londres, Tokio
+        • **Azure** - Regiones correspondientes con configuraciones similares  
+        • **GCP** - Misma configuración regional para comparación justa
         
-        Every test follows the same route: N. Virginia → London → Tokyo → N. Virginia. This ensures all measurements are comparable across different cloud providers and programming languages.
+        Cada prueba sigue la misma ruta: N. Virginia → Londres → Tokio → N. Virginia. Esto asegura que todas las mediciones sean comparables entre diferentes proveedores de nube y lenguajes de programación.
         
-        **⚡ Timing Precision**
+        **⚡ Precisión de Tiempo**
         
-        All measurements use microsecond precision to capture small performance differences:
+        Todas las mediciones usan precisión de microsegundos para capturar pequeñas diferencias de rendimiento:
         
-        • High-precision timestamps at each regional checkpoint
-        • Consistent measurement methodology
+        • Marcas de tiempo de alta precisión en cada punto de control regional
+        • Metodología de medición consistente
         
-        **📊 Data Collection**
+        **📊 Recolección de Datos**
         
-        Each test execution gets a unique identifier (UUID) that tracks it through all four steps of the global journey. The system records:
+        Cada ejecución de prueba obtiene un identificador único (UUID) que la rastrea a través de los cuatro pasos del viaje global. El sistema registra:
         
-        • When data arrives at each region
-        • Network travel time between regions
-        • Total execution time
+        • Cuándo llegan los datos a cada región
+        • Tiempo de viaje de red entre regiones
+        • Tiempo total de ejecución
       `
     },
     {
       id: 2,
-      title: "Understanding Time Measurements",
-      summary: "This system uses microsecond-level measurements to analyze execution times across cloud providers and languages, helping identify performance trends, optimize deployments, and guide infrastructure decisions.",
-      date: "July 28, 2025",
+      title: "Entendiendo las Mediciones de Tiempo",
+      summary: "Este sistema utiliza mediciones a nivel de microsegundos para analizar tiempos de ejecución a través de proveedores de nube y lenguajes, ayudando a identificar tendencias de rendimiento, optimizar despliegues y guiar decisiones de infraestructura.",
+      date: "28 de Julio, 2025",
       content: `
-        **📏 Time Units**
+        **📏 Unidades de Tiempo**
         
-        All times are measured in **microseconds (μs)**:
+        Todos los tiempos se miden en **microsegundos (μs)**:
         
-        • 1 millisecond = 1,000 microseconds
-        • 1 second = 1,000,000 microseconds
+        • 1 milisegundo = 1,000 microsegundos
+        • 1 segundo = 1,000,000 microsegundos
         
-        **📊 What You'll See**
+        **📊 Lo Que Verás**
         
-        • **Average Time:** The typical execution time across all tests for each cloud-language combination.
+        • **Tiempo Promedio:** El tiempo de ejecución típico en todas las pruebas para cada combinación de nube-lenguaje.
 
-        • **Fastest Times:** The 3 best performance results, showing optimal conditions.
+        • **Tiempos Más Rápidos:** Los 3 mejores resultados de rendimiento, mostrando condiciones óptimas.
 
-        • **Slowest Times:** The 3 worst performance results, revealing potential issues.
+        • **Tiempos Más Lentos:** Los 3 peores resultados de rendimiento, revelando problemas potenciales.
 
-        • **Regional Segments:** How long each part of the journey takes (N. Virginia → London → Tokyo → N. Virginia).
+        • **Segmentos Regionales:** Cuánto tiempo toma cada parte del viaje (N. Virginia → Londres → Tokio → N. Virginia).
 
-        **🎯 How to Use This Data**
+        **🎯 Cómo Usar Estos Datos**
         
-        • Compare cloud providers for your specific programming language
-        • Identify which regions might cause delays
+        • Comparar proveedores de nube para tu lenguaje de programación específico
+        • Identificar qué regiones podrían causar retrasos
       `
     },
     {
       id: 3,
       title: "Reading the Color-Coded Performance Data",
       summary: "Learn how to interpret the green and red color indicators that show performance relative to averages, helping you make quick infrastructure decisions based on over 1 million data points.",
-      date: "July 30, 2025",
+      date: "30 de Julio, 2025",
       content: `
-        **🎨 Color System**
+        **🎨 Sistema de Colores**
         
-        The app uses colors to show performance compared to averages:
+        La aplicación usa colores para mostrar el rendimiento comparado con los promedios:
         
-        • **Green** - Better than average performance (faster)
-        • **Red** - Worse than average performance (slower)
+        • **Verde** - Mejor rendimiento que el promedio (más rápido)
+        • **Rojo** - Peor rendimiento que el promedio (más lento)
         
-        **📊 How Colors Are Assigned**
+        **📊 Cómo se Asignan los Colores**
         
-        Each measurement is compared to the average for that specific cloud provider and programming language combination. If an execution is faster than average, it gets green. If slower, it gets red.
+        Cada medición se compara con el promedio para esa combinación específica de proveedor de nube y lenguaje de programación. Si una ejecución es más rápida que el promedio, obtiene verde. Si es más lenta, obtiene rojo.
         
-        **🗺️ Regional Color Patterns**
+        **🗺️ Patrones de Color Regional**
         
-        Each part of the journey gets its own color based on how it performed:
+        Cada parte del viaje obtiene su propio color basado en cómo se desempeñó:
         
-        • **N. Virginia → London** - Transatlantic performance
-        • **London → Tokyo** - Trans-Asian performance  
-        • **Tokyo → N. Virginia** - Transpacific performance
+        • **N. Virginia → Londres** - Rendimiento transatlántico
+        • **Londres → Tokio** - Rendimiento trans-asiático  
+        • **Tokio → N. Virginia** - Rendimiento transpacífico
       `
     },
     {
       id: 4,
-      title: "Understanding the Three Main App Sections",
-      summary: "Complete guide to navigating Around Planet's three main sections: Regional Performance Overview, Fastest Executions, and Slowest Executions, plus how to use them together for comprehensive analysis.",
-      date: "July 30, 2025",
+      title: "Entendiendo las Tres Secciones Principales de la Aplicación",
+      summary: "Guía completa para navegar las tres secciones principales de Around Planet: Visión General de Rendimiento Regional, Ejecuciones Más Rápidas y Ejecuciones Más Lentas, además de cómo usarlas juntas para análisis integral.",
+      date: "30 de Julio, 2025",
       content: `
-        The app has three main sections that work together to give you a complete picture of performance:
+        La aplicación tiene tres secciones principales que trabajan juntas para darte una imagen completa del rendimiento:
         
-        **🗺️ Regional Overview (Left/Center)**
+        **🗺️ Visión General Regional (Izquierda/Centro)**
         
-        Shows the global journey visually with three colored segments:
+        Muestra el viaje global visualmente con tres segmentos coloreados:
         
-        • **Route sections** - N. Virginia → London → Tokyo → N. Virginia
-        • **Color coding** - Green for fast, red for slow segments
-        • **Average times** - Summary statistics for the selected combination
-        • **Controls** - Button menu to pick cloud provider and programming language
+        • **Secciones de ruta** - N. Virginia → Londres → Tokio → N. Virginia
+        • **Codificación de color** - Verde para segmentos rápidos, rojo para lentos
+        • **Tiempos promedio** - Estadísticas resumen para la combinación seleccionada
+        • **Controles** - Menú de botones para elegir proveedor de nube y lenguaje de programación
         
-        **🚀 Fastest Executions (Top Right)**
+        **🚀 Ejecuciones Más Rápidas (Arriba Derecha)**
         
-        Shows the 3 best performance results:
+        Muestra los 3 mejores resultados de rendimiento:
         
-        • **Best times** - The fastest executions recorded
-        • **Breakdown** - How long each segment took in the best cases
-        • **Comparison bars** - Visual representation of segment performance
-        • **UUIDs** - Unique identifiers for each execution
+        • **Mejores tiempos** - Las ejecuciones más rápidas registradas
+        • **Desglose** - Cuánto tiempo tomó cada segmento en los mejores casos
+        • **Barras de comparación** - Representación visual del rendimiento de segmentos
+        • **UUIDs** - Identificadores únicos para cada ejecución
         
-        **🐌 Slowest Executions (Bottom Right)**
+        **🐌 Ejecuciones Más Lentas (Abajo Derecha)**
         
-        Shows the 3 worst performance results:
+        Muestra los 3 peores resultados de rendimiento:
         
-        • **Worst times** - The slowest executions recorded
-        • **Problem areas** - Which segments caused the delays
-        • **Comparison** - How much slower than average these were
-        • **Patterns** - Common characteristics of slow executions
+        • **Peores tiempos** - Las ejecuciones más lentas registradas
+        • **Áreas problemáticas** - Qué segmentos causaron los retrasos
+        • **Comparación** - Cuánto más lentos que el promedio fueron estos
+        • **Patrones** - Características comunes de ejecuciones lentas
         
-        **🔄 How to Use All Three Together**
+        **🔄 Cómo Usar las Tres Juntas**
         
-        1. Start with the regional overview to see general performance patterns.
-        2. Check fastest executions to see what's possible under ideal conditions.
-        3. Review slowest executions to understand potential problems.
-        4. Compare different cloud providers and languages using the Button menus.
+        1. Comenzar con la visión general regional para ver patrones generales de rendimiento.
+        2. Revisar las ejecuciones más rápidas para ver qué es posible bajo condiciones ideales.
+        3. Revisar las ejecuciones más lentas para entender problemas potenciales.
+        4. Comparar diferentes proveedores de nube y lenguajes usando los menús de botones.
       `
     },
     {
       id: 5,
-      title: "Understanding UUID Track Identification",
-      summary: "Explore how UUID tracking ensures data integrity by uniquely identifying each journey around the planet, enabling precise performance measurement and verification across all regional segments.",
-      date: "July 30, 2025",
+      title: "Entendiendo la Identificación de Rastreo UUID",
+      summary: "Explora cómo el rastreo UUID asegura la integridad de datos identificando de manera única cada viaje alrededor del planeta, habilitando medición precisa de rendimiento y verificación a través de todos los segmentos regionales.",
+      date: "30 de Julio, 2025",
       content: `
-        **🔗 What is a UUID?**
+        **🔗 ¿Qué es un UUID?**
         
-        A UUID (Universally Unique Identifier) is a unique code assigned to each test execution. It looks like this: a1b2c3d4-e5f6-7890-1234-567890abcdef
+        Un UUID (Identificador Único Universal) es un código único asignado a cada ejecución de prueba. Se ve así: a1b2c3d4-e5f6-7890-1234-567890abcdef
         
-        **🎯 Why Use UUIDs?**
+        **🎯 ¿Por qué Usar UUIDs?**
         
-        UUIDs ensure that measurements from different regions can be linked to the same test:
+        Los UUIDs aseguran que las mediciones de diferentes regiones puedan vincularse a la misma prueba:
         
-        • **Unique tracking** - Each test gets its own identifier that won't be reused
-        • **Data integrity** - Confirms all timing data comes from the same execution
-        • **Error detection** - Helps identify incomplete or corrupted test runs
+        • **Rastreo único** - Cada prueba obtiene su propio identificador que no será reutilizado
+        • **Integridad de datos** - Confirma que todos los datos de tiempo provienen de la misma ejecución
+        • **Detección de errores** - Ayuda a identificar ejecuciones de prueba incompletas o corruptas
         
-        **⚙️ How It Works**
+        **⚙️ Cómo Funciona**
         
-        Each test follows this process:
+        Cada prueba sigue este proceso:
         
-        1. **Start** - A UUID is generated in N. Virginia
-        2. **Travel** - The UUID travels with the test through London and Tokyo
-        3. **Return** - The UUID comes back to N. Virginia
-        4. **Verification** - All four timestamps are matched using the UUID
+        1. **Inicio** - Se genera un UUID en N. Virginia
+        2. **Viaje** - El UUID viaja con la prueba a través de Londres y Tokio
+        3. **Regreso** - El UUID regresa a N. Virginia
+        4. **Verificación** - Todas las cuatro marcas de tiempo se emparejan usando el UUID
         
-        **📊 What This Means for You**
+        **📊 Lo que Esto Significa para Ti**
         
-        • **Reliable data** - You can trust that fastest/slowest times represent real complete journeys
-        • **Complete picture** - Every measurement includes all four regional segments
-        • **Quality assurance** - Incomplete or corrupted tests are automatically excluded
+        • **Datos confiables** - Puedes confiar en que los tiempos más rápidos/lentos representan viajes completos reales
+        • **Imagen completa** - Cada medición incluye los cuatro segmentos regionales
+        • **Aseguramiento de calidad** - Las pruebas incompletas o corruptas se excluyen automáticamente
         
-        **🏗️ Practical Benefits**
+        **🏗️ Beneficios Prácticos**
         
-        The UUID system ensures you're seeing accurate, complete performance data rather than partial measurements or timing errors.
+        El sistema UUID asegura que estés viendo datos de rendimiento precisos y completos en lugar de mediciones parciales o errores de tiempo.
       `
     }
   ]
@@ -259,7 +259,7 @@ function Blog() {
         {/* AI Disclaimer */}
         <div className="mb-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
           <p className="text-sm text-yellow-800">
-            <strong>This blog was AI-generated and human checked for quality. It’s concise, so you can quickly gain a better understanding of the topic without wasting time.</strong>
+            <strong>Este blog fue generado por IA y verificado por humanos para calidad. Es conciso, para que puedas obtener rápidamente una mejor comprensión del tema sin perder tiempo.</strong>
           </p>
         </div>
         
@@ -273,7 +273,7 @@ function Blog() {
               onClick={() => setSelectedPost(null)}
               className="mb-6 px-4 py-2 text-black rounded hover:bg-gray-200 transition-colors"
             >
-              ← Back to All Posts
+              ← Volver a Todos los Posts
             </button>
             
             {/* Selected post */}

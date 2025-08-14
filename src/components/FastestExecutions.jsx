@@ -8,7 +8,7 @@ function FastestExecutions({ selectedCloud, selectedLanguage, top3Data, avgData,
   return (
     <div className="mb-6 md:mb-0">
       <h2 className="font-bold mb-4 md:mb-2 text-lg md:text-base">
-        Top 3 Fastest
+        Top 3 Más Rápidos
       </h2>
 
       <div className="flex flex-col space-y-4 md:space-y-0">

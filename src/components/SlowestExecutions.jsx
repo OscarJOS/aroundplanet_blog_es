@@ -8,7 +8,7 @@ function SlowestExecutions({ selectedCloud, selectedLanguage, last3Data, avgData
   return (
     <div>
       <h2 className='font-bold mb-4 md:mb-2 text-lg md:text-base'>
-        Top 3 Slowest
+        Top 3 Más Lentos
       </h2>
 
       <div className="flex flex-col space-y-4 md:space-y-0">

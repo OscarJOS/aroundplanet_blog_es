@@ -15,11 +15,11 @@ function TrackNavigation({ selectedCloud, setSelectedCloud, selectedLanguage, se
 
   return (
     <div className="px-0 md:px-3 max-w-full md:max-w-md w-full">
-      <h3 className="text-base md:text-sm font-bold mb-4 md:mb-1 text-gray-700">Select your options:</h3>
+      <h3 className="text-base md:text-sm font-bold mb-4 md:mb-1 text-gray-700">Selecciona tus opciones:</h3>
       
       {/* Cloud Providers Section */}
       <div className="mb-6 md:mb-1">
-        <h4 className="text-sm md:text-xs font-semibold mb-3 md:mb-1 text-gray-600">Cloud Providers:</h4>
+        <h4 className="text-sm md:text-xs font-semibold mb-3 md:mb-1 text-gray-600">Proveedores de Nube:</h4>
         <div className="grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-3 md:gap-2">
           {clouds.map((cloud) => (
             <button
@@ -67,7 +67,7 @@ function TrackNavigation({ selectedCloud, setSelectedCloud, selectedLanguage, se
 
       {/* Languages Section */}
       <div>
-        <h4 className="text-sm md:text-xs font-semibold mb-3 md:mb-1 text-gray-600">Programming Languages:</h4>
+        <h4 className="text-sm md:text-xs font-semibold mb-3 md:mb-1 text-gray-600">Lenguajes de Programación:</h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:flex md:flex-col gap-3 md:gap-2">
           {languages.map((language) => (
             <button

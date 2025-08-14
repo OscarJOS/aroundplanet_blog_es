@@ -8,18 +8,18 @@ function RegionalChart({ chartData }) {
   const routes = [
     { 
       from: 'N. Virginia', 
-      to: 'London', 
+      to: 'Londres', 
       data: getRegionData('N. Virginia'), 
       color: 'bg-blue-50 border-blue-200' 
     },
     { 
-      from: 'London', 
-      to: 'Tokyo', 
+      from: 'Londres', 
+      to: 'Tokio', 
       data: getRegionData('London'), 
       color: 'bg-green-50 border-green-200' 
     },
     { 
-      from: 'Tokyo', 
+      from: 'Tokio', 
       to: 'N. Virginia', 
       data: getRegionData('Tokyo'), 
       color: 'bg-purple-50 border-purple-200' 
@@ -33,7 +33,7 @@ function RegionalChart({ chartData }) {
 
   return (
     <div className="mb-2">
-      <h4 className="text-sm font-semibold mb-2 text-gray-700">Region Route Performance:</h4>
+      <h4 className="text-sm font-semibold mb-2 text-gray-700">Rendimiento de Ruta Regional:</h4>
       
       {/* Route Banners */}
       <div className="space-y-4">
@@ -49,15 +49,15 @@ function RegionalChart({ chartData }) {
             {/* Performance Data */}
             <div className="grid grid-cols-3 gap-4 text-sm">
               <div className="text-center p-2 bg-white rounded border">
-                <div className="text-gray-500 mb-1">Avg</div>
+                <div className="text-gray-500 mb-1">Prom</div>
                 <div className="font-semibold text-gray-800">{formatDisplayTime(route.data.avgTime)}</div>
               </div>
               <div className="text-center p-2 bg-white rounded border">
-                <div className="text-gray-500 mb-1">Min</div>
+                <div className="text-gray-500 mb-1">Mín</div>
                 <div className="font-semibold text-green-600">{formatDisplayTime(route.data.minTime)}</div>
               </div>
               <div className="text-center p-2 bg-white rounded border">
-                <div className="text-gray-500 mb-1">Max</div>
+                <div className="text-gray-500 mb-1">Máx</div>
                 <div className="font-semibold text-red-600">{formatDisplayTime(route.data.maxTime)}</div>
               </div>
             </div>

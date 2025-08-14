@@ -43,7 +43,7 @@ function App() {
             onClick={() => setShowBlog(false)}
             title="Return to main dashboard"
           >
-            {showBlog ? 'Around Planet Blog' : 'Around Planet'}
+            {showBlog ? 'Blog Around Planet' : 'Around Planet'}
           </h1>
           <div className="flex gap-3 justify-center md:justify-start">
             <button
@@ -54,7 +54,7 @@ function App() {
                   : 'bg-gray-200 text-black border-gray-400 hover:bg-gray-300'
               }`}
             >
-              🏠 Dashboard
+              🏠 Panel de Control
             </button>
             <button
               onClick={() => setShowBlog(true)}
@@ -78,20 +78,20 @@ function App() {
           <div className="w-full md:w-1/4 p-2 flex flex-col">
             <div className="text-sm text-gray-600 mb-4 md:mb-1">
               <p className="text-sm mb-2 md:text-xs md:mb-1">
-                This dashboard has execution times across different cloud providers (AWS, Azure, GCP) and programming languages as data travels between global regions.
+                Este panel de control muestra tiempos de ejecución a través de diferentes proveedores de nube (AWS, Azure, GCP) y lenguajes de programación mientras los datos viajan entre regiones globales.
               </p>
               <p className="text-sm mb-2 md:text-xs md:mb-1">
-                <strong>How to read the data:</strong>
+                <strong>Cómo leer los datos:</strong>
               </p>
               <ul className="text-sm space-y-1 ml-4 md:text-xs md:space-y-1 md:ml-2">
-                <li><span className="text-green-600">Green</span> = faster than average</li>
-                <li><span className="text-red-600">Red</span> = slower than average</li>
-                <li>Times shown in microseconds (μs)</li>
-                <li>Data flows: N. Virginia → London → Tokyo → N. Virginia</li>
+                <li><span className="text-green-600">Verde</span> = más rápido que el promedio</li>
+                <li><span className="text-red-600">Rojo</span> = más lento que el promedio</li>
+                <li>Tiempos mostrados en microsegundos (μs)</li>
+                <li>Flujo de datos: N. Virginia → Londres → Tokio → N. Virginia</li>
               </ul>
               <p className="text-sm mt-2 text-gray-500 md:text-xs md:mt-1">
-                Try different cloud providers and languages below to explore performance variations. 
-                Our data represents over <strong>1 MILLION</strong> trips around the planet! 🌍
+                Prueba diferentes proveedores de nube y lenguajes a continuación para explorar variaciones de rendimiento. 
+                ¡Nuestros datos representan más de <strong>1 MILLÓN</strong> de viajes alrededor del planeta! 🌍
               </p>
             </div>
             

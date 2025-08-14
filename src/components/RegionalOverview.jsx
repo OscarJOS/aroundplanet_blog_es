@@ -32,7 +32,7 @@ function RegionalOverview({ selectedCloud, selectedLanguage, regionData, avgData
   return (
     <div className="w-full md:w-1/3 p-2">
         <h2 className="font-bold mb-4 md:mb-2 text-lg md:text-base">
-           Average Execution Times
+           Tiempos de Ejecución Promedio
         </h2>
         
         {/* Average Execution Times */}
@@ -55,7 +55,7 @@ function RegionalOverview({ selectedCloud, selectedLanguage, regionData, avgData
                     className="w-10 h-10 md:w-8 md:h-8 mr-3"
                   />
                   <div className="text-center">
-                    <div className="text-sm md:text-xs text-gray-500">Cloud Provider</div>
+                    <div className="text-sm md:text-xs text-gray-500">Proveedor de Nube</div>
                     <div className="font-semibold text-base md:text-sm text-blue-800">{item.cloud.toUpperCase()}</div>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ function RegionalOverview({ selectedCloud, selectedLanguage, regionData, avgData
                     className="w-10 h-10 md:w-8 md:h-8 mr-3"
                   />
                   <div className="text-center">
-                    <div className="text-sm md:text-xs text-gray-500">Programming Language</div>
+                    <div className="text-sm md:text-xs text-gray-500">Lenguaje de Programación</div>
                     <div className="font-semibold text-base md:text-sm text-purple-800">{formatLanguageName(item.language).toUpperCase()}</div>
                   </div>
                 </div>
@@ -77,11 +77,11 @@ function RegionalOverview({ selectedCloud, selectedLanguage, regionData, avgData
               {/* Stats */}
               <div className="space-y-3 md:space-y-2 text-base md:text-sm">
                 <div className="p-3 md:p-2 bg-gray-50 rounded text-center">
-                  <div className="text-gray-600">Total registered careers:</div>
+                  <div className="text-gray-600">Total de carreras registradas:</div>
                   <div className="font-bold text-xl md:text-lg">{item.track_count.toLocaleString()}</div>
                 </div>
                 <div className="p-3 md:p-2 bg-green-50 rounded text-center">
-                  <div className="text-gray-600">Average execution time:</div>
+                  <div className="text-gray-600">Tiempo promedio de ejecución:</div>
                   <div className="font-bold text-xl md:text-lg">{item.avg_time_microseconds.toLocaleString()}μs</div>
                 </div>
               </div>

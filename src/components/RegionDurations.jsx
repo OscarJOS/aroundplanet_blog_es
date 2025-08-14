@@ -9,8 +9,8 @@ function RegionDurations({ regionDurations, avgData, selectedCloud, selectedLang
     const regionMap = {
       'us-east-1': 'N. Virginia',
       'us-east-2': 'N. Virginia', 
-      'eu-west-2': 'London', 
-      'ap-northeast-1': 'Tokyo'
+      'eu-west-2': 'Londres', 
+      'ap-northeast-1': 'Tokio'
     }
     
     // Clean up the region string first
@@ -79,9 +79,9 @@ function RegionDurations({ regionDurations, avgData, selectedCloud, selectedLang
 
   // Define the desired order of region flows
   const desiredOrder = [
-    { from: 'N. Virginia', to: 'London' },
-    { from: 'London', to: 'Tokyo' },
-    { from: 'Tokyo', to: 'N. Virginia' }
+    { from: 'N. Virginia', to: 'Londres' },
+    { from: 'Londres', to: 'Tokio' },
+    { from: 'Tokio', to: 'N. Virginia' }
   ]
   
   // Sort regionDurations according to desired order
